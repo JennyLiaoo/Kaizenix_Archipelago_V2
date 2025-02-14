@@ -1,1 +1,7 @@
-# TermProject2
+Project Title: Kaizenix Archipelago
+
+Description: This project is a top-down 2D combat game where the player can move around an area using the up, down, left and right keyboard controls.  To enhance the exploration experience,  this includes obstacles, pathways, random enemy generation, and hidden areas. The player will encounter a variety of enemies, each with unique movement patterns and behaviours. As the player progresses, the enemies will become increasingly more challenging to defeat. This ranges from enemies with predetermined movements to pathfinding enemies. The player can defeat enemies to gain exp, level up, increase health, improve attack strength, and unlock more areas. The goal of the game is to find and restore all seven statues by maintaining contact with them for a certain amount of time. The player can also heal by standing near a fully restored statue. After all statues are fully restored, the player can return to their original teleport point to win.
+
+To run the project in a coding editor, you should go to Main.py. But before you can run the project, make sure to install cmu-graphics through this link, https://academy.cs.cmu.edu/desktop, and follow the instructions. You should also install pygame by running 'pip install pygame' in your command-line interface or terminal. See more details about installing pygame here: https://pypi.org/project/pygame/.
+
+Some shortcuts you can use to help look at all the game features is by going into Player.py and changing the initial value for self.exp to 70. This allows you to gain access to all other scenes. You can also change the Player's attack, health, etc., to help you defeat enemies faster.
